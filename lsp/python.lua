@@ -1,4 +1,4 @@
 return{
-    cmd = { 'pylyzer' },
+    cmd = { 'pylint' },
     filetypes = { 'python' },
 }

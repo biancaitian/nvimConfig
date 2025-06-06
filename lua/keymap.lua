@@ -60,8 +60,8 @@ map("n", "<A-k>", "4k", opt)
 -- map("v", "p", '"_dP', opt)
 
 -- -- 退出
-map("n", "<C-w><C-w>", ":w<CR>", opt)
-map("n", "<C-q><C-q>", ":q<CR>", opt)
+map("n", "<C-w><C-w>", ":w<CR>", {})
+map("n", "<C-q><C-q>", ":q<CR>", {})
 map("n", "<C-Q><C-Q>", ":q!<CR>", opt)
 -- map("n", "Q", ":qa!<CR>", opt)
 
