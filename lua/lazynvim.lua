@@ -1,5 +1,5 @@
 -- Bootstrap lazy.nvim
-local lazypath = "D:/Editor/nvim_P/plugin/lazy/lazy.nvim"
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
   local lazyrepo = "https://ghproxy.cn/github.com/folke/lazy.nvim.git"
   local out = vim.fn.system({ "git", "clone", "--filter=blob:none", "--branch=stable", lazyrepo, lazypath })
@@ -17,7 +17,6 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Setup lazy.nvim
 require("lazy").setup({
-  root = "D:/Editor/nvim_P/plugin/plugins",
   git = {
           url_format = "https://ghproxy.cn/https://github.com/%s.git",
         },

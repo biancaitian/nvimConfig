@@ -11,4 +11,3 @@ require('lsp')
 -- vim.cmd.highlight('IndentLineCurrent guifg=#123456')
 
 vim.cmd[[colorscheme hardhacker]]
-vim.cmd[[cd E:/Code]]

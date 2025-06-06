@@ -4,7 +4,7 @@ return{
         opts = {
             ---@since 1.0.0
             -- The directory in which to install packages.
-            install_root_dir = "D:/Editor/nvim_P/lsp",
+            -- install_root_dir = "D:/Editor/nvim_P/lsp",
 
             ---@since 1.0.0
             -- Where Mason should put its bin location in your PATH. Can be one of:
